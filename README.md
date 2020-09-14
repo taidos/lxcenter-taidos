@@ -12,4 +12,8 @@ I will start mirror them soon to here
 
 Its better keeping all RPM's for further development.
 
+My REPO with everything in it:
+
+https://ip-television.ml/repo/update/
+
 Carlos Faustino
