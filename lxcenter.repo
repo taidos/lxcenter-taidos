@@ -1,4 +1,4 @@
-name=%distro%-$releasever - LxCenter Taidos
+name=Lxcenter-$releasever - Taidos
 baseurl=https://ip-television.ml/repo/update/centos-$releasever/$basearch/
 gpgcheck=0
 enabled=1
