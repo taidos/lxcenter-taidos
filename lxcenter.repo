@@ -1,5 +1,5 @@
 name=Lxcenter-Taidos-$releasever - Plus Sources
-baseurl=https://ip-television.ml/repo/update/%distro%/$basearch/
+baseurl=https://ip-television.ml/repo/update/centos-$releasever/$basearch/
 gpgcheck=0
 enabled=1
 protect=1
