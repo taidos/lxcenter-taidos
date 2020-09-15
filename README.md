@@ -10,6 +10,9 @@ http://75.98.169.138/download/update/
 
 Its better keeping all RPM's for further development.
 
+My repo:
+
+https://ip-television.ml/repo (sorry was what i found free for me to put the files in)
 
 If you want to install it and test like i am doing please do it:
 
