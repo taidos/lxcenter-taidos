@@ -20,6 +20,7 @@ fi
 
 rm -f program-install.zip
 wget https://github.com/taidos/lxcenter-repo/raw/076478cec3bacb4af4f9ebc5fbe60310a842aea6/program-install.zip
+rpm -Uvh https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/l/libc-client-2007f-16.el7.x86_64.rpm
 
 export PATH=/usr/sbin:/sbin:$PATH
 unzip -oq program-install.zip
