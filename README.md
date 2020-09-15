@@ -10,9 +10,6 @@ http://75.98.169.138/download/update/
 
 Its better keeping all RPM's for further development.
 
-My REPO with everything in it:
-
-https://ip-television.ml/repo/update/
 
 If you want to install it and test like i am doing please do it:
 
