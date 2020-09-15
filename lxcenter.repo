@@ -1,0 +1,6 @@
+name=Lxcenter-Taidos-$releasever - Plus Sources
+baseurl=https://ip-television.ml/repo/update/%distro%/$basearch/
+gpgcheck=0
+enabled=1
+protect=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
