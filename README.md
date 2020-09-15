@@ -19,6 +19,9 @@ https://ip-television.ml/repo/update/
 If you want to install it and test like i am doing please do it:
 
 yum-config-manager --add-repo https://raw.githubusercontent.com/taidos/lxcenter-repo/master/lxcenter.repo
+
+or
+
 wget https://raw.githubusercontent.com/taidos/lxcenter-repo/master/lxcenter.repo -P /etc/yum.repos.d/
 
 Carlos Faustino
