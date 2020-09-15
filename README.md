@@ -26,6 +26,4 @@ Carlos Faustino
 
 I will be more arround the HyperVM installation, until its a working panel, any help will be great :)
 
-Instalation is stuck on Zend, we need the file ZendExtensionManager.so for php 5.4, the source as lxcenter told to many people they come open, they never did, so files still encrypted. I will try to upgrade php binary is in with other zend to make it work. All needed files for are going to install. but i really stuck on this one.
-
 Thanks for all the help of Bigboxhost.com
