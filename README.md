@@ -26,4 +26,4 @@ Carlos Faustino
 
 I will be more arround the HyperVM installation, until its a working panel, any help will be great :)
 
-Thanks for all the help of iFastnet.com, Bigboxhost.com and Rackhost.pt
+Thanks for all the help of Bigboxhost.com
