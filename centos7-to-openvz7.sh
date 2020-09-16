@@ -14,7 +14,7 @@ rpm -Uvh http://repo.virtuozzo.com/vzlinux/7/x86_64/os/Packages/z/zstd-1.4.4-1.v
 rpm -Uvh http://repo.virtuozzo.com/vzlinux/7/x86_64/os/Packages/v/vzlinux-release-7-1.vl7.89.x86_64.rpm;
 mv /etc/yum.repos.d/CentOS-* /root/;
 rpm -e --nodeps --justdb json-c;
-yum erase jansson;
+yum -y erase jansson;
 yum -y localinstall http://repo.virtuozzo.com/vzlinux/7.7/x86_64/os/Packages/j/jansson-2.10-1.vl7.1.x86_64.rpm;
 yum -y localinstall http://repo.virtuozzo.com/vzlinux/7.7/x86_64/os/Packages/j/json-c-0.11-13.vl7.1.x86_64.rpm;
 yum -y install prlctl prl-disp-service vzkernel *ploop* *ez.noarch;
