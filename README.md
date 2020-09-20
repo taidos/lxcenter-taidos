@@ -20,7 +20,7 @@ yum-config-manager --add-repo https://raw.githubusercontent.com/taidos/lxcenter-
 
 or
 
-wget https://raw.githubusercontent.com/taidos/lxcenter-repo/master/lxcenter.repo -P /etc/yum.repos.d/
+wget https://raw.githubusercontent.com/taidos/lxcenter-repo/master/lxcenter.repo -O /etc/yum.repos.d/
 
 Carlos Faustino
 
