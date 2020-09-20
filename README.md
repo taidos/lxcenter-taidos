@@ -25,6 +25,8 @@ wget https://raw.githubusercontent.com/taidos/lxcenter-repo/master/lxcenter.repo
 Carlos Faustino
 
 I will be more arround the HyperVM installation, until its a working panel, any help will be great :)
+
 Credits:
 Me: http://carlos-faustino.com
+
 BigBoxHost: http://bigboxhost.com
