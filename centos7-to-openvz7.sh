@@ -17,9 +17,8 @@ rpm -e --nodeps --justdb json-c;
 yum -y erase jansson;
 yum -y localinstall http://repo.virtuozzo.com/vzlinux/7.7/x86_64/os/Packages/j/jansson-2.10-1.vl7.1.x86_64.rpm;
 yum -y localinstall http://repo.virtuozzo.com/vzlinux/7.7/x86_64/os/Packages/j/json-c-0.11-13.vl7.1.x86_64.rpm;
-cd /usr/libexec/; 
-mv ovz-template-converter ovz-template-converter.orig;
-wget -O ovz-template-converter https://raw.githubusercontent.com/solusvm-support/svm_patches/master/ovz-template-converter.patched;
+mv /usr/libexec/ovz-template-converter /usr/libexec/ovz-template-converter.orig;
+wget -O /usr/libexec/ovz-template-converter https://raw.githubusercontent.com/solusvm-support/svm_patches/master/ovz-template-converter.patched;
 chmod +x /usr/libexec/ovz-template-converter
 yum -y install prlctl prl-disp-service vzkernel *ploop* *ez.noarch python36-pip;
 pip3 install configobj
