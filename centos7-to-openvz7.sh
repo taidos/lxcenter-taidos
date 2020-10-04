@@ -20,7 +20,7 @@ yum -y localinstall http://repo.virtuozzo.com/vzlinux/7.7/x86_64/os/Packages/j/j
 mv /usr/libexec/ovz-template-converter /usr/libexec/ovz-template-converter.orig;
 wget -O /usr/libexec/ovz-template-converter https://raw.githubusercontent.com/taidos/svm_patches/master/ovz-template-converter.patched;
 chmod +x /usr/libexec/ovz-template-converter
-yum -y install prlctl prl-disp-service vzkernel *ploop* *ez.noarch python36-pip;
+yum -y install prlctl prl-disp-service vzkernel *ploop* *ez.noarch python36-pip prl-vzvncserver;
 pip3 install configobj
 yum -y update;
 echo "If you are on OVH fallow this commands:";
