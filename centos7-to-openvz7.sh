@@ -6,6 +6,7 @@ echo "You need to make SURE that you have one LVM formated in EXT4 for /vz parti
 echo "After you accept the first install is no turning back Do CTRL + X";
 echo "--------------------------------------";
 yum localinstall https://download.openvz.org/virtuozzo/releases/openvz-7.0.11-235/x86_64/os/Packages/o/openvz-release-7.0.11-3.vz7.x86_64.rpm;
+yum -y remove python2-subprocess32
 yum -y localinstall https://download.openvz.org/virtuozzo/releases/openvz-7.0.11-235/x86_64/os/Packages/p/python-subprocess32-3.2.7-1.vz7.5.x86_64.rpm;
 yum install epel-release -y;
 yum -y install python3;
