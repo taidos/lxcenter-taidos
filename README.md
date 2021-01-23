@@ -3,12 +3,15 @@ I will name this fork as hypervm-taidos, right now i'm was able to install Hyper
 
 FAQ:
 Q: Is secure use HyperVM?
+
 A: I advert everyone thats not secure yet to run in production servers, right now is better test, develop this further, some exploids still need to check if they are solved.
 
 Q: When it becomes available for the masses?
+
 A: I dont know, right now i think, i still need testing, but after solve many issues and turn this to a working.
 
 Q: I am able to test it now?
+
 A: If you know somethings. Like install openvz and debug programs yes, i saw this kind of project die, and this home as 3 died forks, i believe this one will not, so please test as you want but please give a feedback on how improve it for the better, i have some ideias.
 
 Repo of all RPM's of Lxcenter.org
