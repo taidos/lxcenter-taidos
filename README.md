@@ -1,4 +1,4 @@
-# lxcenter-repo
+# lxcenter-taidos
 Repo of all RPM's of Lxcenter.org
 
 Temporary download link is still thier server:
