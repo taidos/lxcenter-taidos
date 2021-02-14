@@ -2,7 +2,7 @@
 
 if ! [ -f /usr/bin/yum ] ; then
       echo You at least need yum installed for this to work...
-	  echo Please contact our support personnel Or visit the forum at http://github.com/taidos
+	  echo Please contact our support personnel Or visit the website at http://github.com/taidos
 	  echo "                                "
 	  exit
 fi
