@@ -18,6 +18,7 @@ rpm -e --nodeps --justdb json-c;
 yum -y erase jansson;
 yum -y localinstall http://repo.virtuozzo.com/vzlinux/7.7/x86_64/os/Packages/j/jansson-2.10-1.vl7.1.x86_64.rpm;
 yum -y localinstall http://repo.virtuozzo.com/vzlinux/7.7/x86_64/os/Packages/j/json-c-0.11-13.vl7.1.x86_64.rpm;
+#yum downgrade glibc glibc-common
 yum -y install prlctl prl-disp-service vzkernel *ploop* *ez.noarch python36-pip prl-vzvncserver;
 pip3 install configobj
 yum -y update;
