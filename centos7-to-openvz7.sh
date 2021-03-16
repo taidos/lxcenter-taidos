@@ -6,8 +6,9 @@ echo "You need to make SURE that you have one LVM formated in EXT4 for /vz parti
 echo "After you accept the first install is no turning back Do CTRL + X";
 echo "--------------------------------------";
 yum remove python2-subprocess32
-rpm -Uvh https://download.openvz.org/virtuozzo/releases/openvz-7.0.11-235/x86_64/os/Packages/o/openvz-release-7.0.11-3.vz7.x86_64.rpm;
 rpm -Uvh https://download.openvz.org/virtuozzo/releases/openvz-7.0.11-235/x86_64/os/Packages/p/python-subprocess32-3.2.7-1.vz7.5.x86_64.rpm;
+yum -y install yum-plugin-priorities;
+rpm -Uvh https://download.openvz.org/virtuozzo/releases/openvz-7.0.11-235/x86_64/os/Packages/o/openvz-release-7.0.11-3.vz7.x86_64.rpm;
 yum install epel-release -y;
 yum -y install python3;
 rpm -Uvh http://repo.virtuozzo.com/vzlinux/7/x86_64/os/Packages/r/readykernel-scan-0.11-1.vl7.noarch.rpm;
@@ -18,7 +19,7 @@ rpm -e --nodeps --justdb json-c;
 yum -y erase jansson;
 yum -y localinstall http://repo.virtuozzo.com/vzlinux/7.7/x86_64/os/Packages/j/jansson-2.10-1.vl7.1.x86_64.rpm;
 yum -y localinstall http://repo.virtuozzo.com/vzlinux/7.7/x86_64/os/Packages/j/json-c-0.11-13.vl7.1.x86_64.rpm;
-#yum downgrade glibc glibc-common
+yum -y downgrade glibc glibc-common;
 yum -y install prlctl prl-disp-service vzkernel *ploop* *ez.noarch python36-pip prl-vzvncserver;
 pip3 install configobj
 yum -y update;
