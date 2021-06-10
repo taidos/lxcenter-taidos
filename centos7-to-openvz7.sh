@@ -3,8 +3,9 @@ echo "Credit goes to SolusVM team too";
 echo "Please wait to make the changes please";
 echo "Dont reboot until is finished";
 echo "You need to make SURE that you have one LVM formated in EXT4 for /vz partition";
-echo "After you accept the first install is no turning back Do CTRL + X";
+echo "After 10 Seconds will start install, press CRTL + X to EXIT if you want";
 echo "--------------------------------------";
+sleep 10;
 yum remove python2-subprocess32
 rpm -Uvh https://download.openvz.org/virtuozzo/releases/openvz-7.0.11-235/x86_64/os/Packages/p/python-subprocess32-3.2.7-1.vz7.5.x86_64.rpm;
 yum -y install yum-plugin-priorities;
